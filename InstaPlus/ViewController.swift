@@ -16,7 +16,7 @@ class ViewController: UIViewController , UIWebViewDelegate {
     
     @IBOutlet weak var web: UIWebView!
     let loadingProgress = LoadingProgress()
-    let url_string = "https://www.instapluskw.me/backup/Apps/"
+    let url_string = "https://www.instapluskw.me/newapp/ios/index3.php"
     override func viewDidLoad() {
         super.viewDidLoad()
         web.delegate = self
